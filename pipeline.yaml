@@ -1,7 +1,7 @@
 type: python
-runTests: true
+runTests: false
 testCommand: pytest test.py
-deployUponTestSuccess: true
+deployUponTestSuccess: false
 deployToolImage: bash
 deployCommand: command goes here to deploy to
 deployEnvironment: staging
